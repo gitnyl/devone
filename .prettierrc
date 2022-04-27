@@ -1,0 +1,11 @@
+{
+  "printWidth": 100, // 한 줄에 들어갈 수 있는 글자 수 제한
+  "tabWidth": 2, // tab 클릭 시 들여쓰기 = space 2번
+  "singleQuote": true, // 작은 따옴표 사용
+  "trailingComma": "all", // [1, 2, 3,] 허용, false는 불허
+  "bracketSpacing": true, // [1,2] → [ 1, 2 ]
+  "semi": true, // 세미콜론 사용 여부
+  "useTabs": true, // 탭 사용 여부
+  "arrowParens": "avoid", // (x) => x를 x => x로 변환
+  "endOfLine": "lf" // EoF 방식
+}

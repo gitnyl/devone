@@ -1,9 +1,18 @@
+<script setup>
+import Tailwind from './views/TailWind.vue'
+</script>
+
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
+
+  <div>
+    <Tailwind msg="TailWind~" />
+    <h1 class="text-3xl font-bold underline ">적용확인~~</h1>
+  </div>
 </template>
 
 <style>
